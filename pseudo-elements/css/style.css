@@ -1,0 +1,29 @@
+.circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: aqua; 
+    border-radius: 50%;
+}
+
+.decoration::before,
+.decoration::after {
+   content: "\274c"; 
+   font-size: .6rem;
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   line-height: 30px;
+   background-color: aqua;
+   border-radius: 50%;
+   text-align: center;
+}
+
+a {
+    color: brown;
+    font-size: 2rem;
+}
+
+a:hover {
+    color: blue;
+}
